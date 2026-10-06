@@ -1,0 +1,6 @@
+services:
+  postgres:
+    image: postgres:16.4-alpine
+    container_name: act-tenancy-pg
+    environment:
+      POSTGRES_PASSWORD: lab-only-password
